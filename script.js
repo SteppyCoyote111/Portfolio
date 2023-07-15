@@ -23,3 +23,8 @@ whatsappLinkElement.setAttribute('target', '_blank');
 // Append the WhatsApp link to the body section of the document
 var bodyElement = document.querySelector('body');
 bodyElement.appendChild(whatsappLinkElement);
+
+function openLink() {
+	 window.open("https://xusagi111.github.io/Portfolio/Games/");
+    //window.open("https://www.example.com");
+}
