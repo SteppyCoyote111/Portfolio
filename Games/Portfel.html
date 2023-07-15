@@ -12,13 +12,28 @@
             <button class="return-button" onclick="GoToMainPage()">Вернуться на главную</button>
         </div>
     </header>
-    <div class="container">
-        <div class="background-description">
+      <div class="business-card">
             <h1>Портфолио</h1>
             <h2>Добро пожаловать</h2>
         </div>
-        <div class="business-card">
-          <h1>Мастер нитро</h1>
+
+  <div class="container">
+        <h1>Список элементов</h1>
+        <div class="list-container">
+            <ul id="item-list">
+                <li onclick="showItemDescription(0)">Элемент 1</li>
+                <li onclick="showItemDescription(1)">Элемент 2</li>
+                <li onclick="showItemDescription(2)">Элемент 3</li>
+                <li onclick="showItemDescription(3)">Элемент 4</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="overlay" onclick="hideItemDescription()"></div>
+    <div id="item-description">
+        <div class="navigation-buttons">
+            <button onclick="prevItem()">Назад</button>
+            <button onclick="nextItem()">Вперед</button>
         </div>
     </div>
 </body>
