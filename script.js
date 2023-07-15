@@ -21,6 +21,6 @@ function GoToMainPage() {
  }
 
 
-const IS_USING_GLOBAL_LINK = false;
+const IS_USING_GLOBAL_LINK = true;
 const RELEASED_GAMES_LOCAL = "file:///G:/Fork/Portfolio_Site/Games/Portfel.html";
 const RELEASED_GAMES_GLOBAL = "https://xusagi111.github.io/Portfolio/Games/";
