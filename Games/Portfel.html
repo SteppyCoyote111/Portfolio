@@ -12,13 +12,13 @@
             <button class="return-button" onclick="GoToMainPage()">Вернуться на главную</button>
         </div>
     </header>
-      <div class="business-card">
+    <div class="background-description">
             <h1>Портфолио</h1>
             <h2>Добро пожаловать</h2>
         </div>
 
   <div class="container">
-        <h1>Список элементов</h1>
+        <h1>Список элементов:</h1>
         <div class="list-container">
             <ul id="item-list">
                 <li onclick="showItemDescription(0)">Элемент 1</li>
@@ -28,13 +28,12 @@
             </ul>
         </div>
     </div>
-
+      </div>
     <div id="overlay" onclick="hideItemDescription()"></div>
     <div id="item-description">
         <div class="navigation-buttons">
             <button onclick="prevItem()">Назад</button>
             <button onclick="nextItem()">Вперед</button>
         </div>
-    </div>
 </body>
 </html>

@@ -27,8 +27,7 @@ const IS_USING_GLOBAL_LINK = false;
 const RELEASED_GAMES_LOCAL = "file:///G:/Fork/Portfolio_Site/Games/Portfel.html";
 const RELEASED_GAMES_GLOBAL = "https://xusagi111.github.io/Portfolio/Games/Portfel.html";
 
-
-
+//Item To Cons Element
 const items = [
     { title: 'Элемент 1', description: 'Описание элемента 1' },
     { title: 'Элемент 2', description: 'Описание элемента 2' },
@@ -79,3 +78,5 @@ function nextItem() {
     }
     showItemDescription(currentIndex);
 }
+
+//ItemEndConstElement
