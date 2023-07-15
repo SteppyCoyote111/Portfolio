@@ -1,6 +1,6 @@
 body {
 
-    background-image:  url("Img/test.png");
+    background-image:  url("../Img/test.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
